@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://enockadubonsu.com/</loc>
-  </url>
-  <url>
     <loc>https://enockadubonsu.com/research.html</loc>
+    <lastmod>2026-08-09T06:20:37.674Z</lastmod>
   </url>
   <url>
-    <loc>https://enockadubonsu.com/publications.html</loc>
+    <loc>https://enockadubonsu.com/index.html</loc>
+    <lastmod>2026-08-09T10:26:35.353Z</lastmod>
   </url>
   <url>
     <loc>https://enockadubonsu.com/cv.html</loc>
+    <lastmod>2026-08-09T07:53:17.563Z</lastmod>
+  </url>
+  <url>
+    <loc>https://enockadubonsu.com/publications.html</loc>
+    <lastmod>2026-08-09T03:58:59.436Z</lastmod>
   </url>
 </urlset>
