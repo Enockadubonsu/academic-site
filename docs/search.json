@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research Program\nMy work spans three interconnected areas: statistical methodology for fairness and equity in clinical AI, missing data and survival analysis methods, and public health data science in Sub-Saharan Africa, alongside a developing interest in network and epidemic modeling. All projects use reproducible workflows in R and Quarto."
+  },
+  {
+    "objectID": "research.html#algorithmic-fairness-in-clinical-ai",
+    "href": "research.html#algorithmic-fairness-in-clinical-ai",
+    "title": "Research",
+    "section": "1. Algorithmic Fairness in Clinical AI",
+    "text": "1. Algorithmic Fairness in Clinical AI\n\nThe V(S) Vulnerability-Based Bias Detection Framework\nClinical prediction models frequently perform well on aggregate metrics while failing specific subpopulations — elderly patients, racial minorities, and groups with limited data representation. I’ve developed the V(S) framework, a vulnerability-indexed approach that integrates multi-attribute utility theory and game-theoretic threshold optimization to detect and quantify this kind of subgroup bias.\nValidated on two independent datasets — the UNM Trauma Registry (n = 3,132) and MIMIC-III ICU Mortality Data (n = 46,476) — the framework surfaced a striking failure mode: Random Forest showed sharp performance degradation in elderly patients (AUC 0.636 vs. 0.909 for logistic regression; p = 0.031) that standard explainability tools like SHAP missed.\nTarget: Statistics in Medicine"
+  },
+  {
+    "objectID": "research.html#missing-data-methods",
+    "href": "research.html#missing-data-methods",
+    "title": "Research",
+    "section": "2. Missing Data Methods",
+    "text": "2. Missing Data Methods\n\nMNAR Sensitivity Analysis and Tipping-Point Frameworks\nMissing data are pervasive in clinical and public health research. This work focuses on:\n\nMultiple imputation under MAR and MNAR assumptions\nTipping-point analysis for how sensitive conclusions are to departures from MAR\nTwo-stage multiple imputation for complex survey data, including DHS missing-hemoglobin outcomes\n\nApplied to clinical trial data (target: BMC Medical Research Methodology) and to childhood anemia analyses using Demographic and Health Survey (DHS) data."
+  },
+  {
+    "objectID": "research.html#public-health-data-science-in-sub-saharan-africa-beyond",
+    "href": "research.html#public-health-data-science-in-sub-saharan-africa-beyond",
+    "title": "Research",
+    "section": "3. Public Health Data Science in Sub-Saharan Africa & Beyond",
+    "text": "3. Public Health Data Science in Sub-Saharan Africa & Beyond\n\nPHEM Capacity Building — Africa CDC\nA systematic landscape analysis of Public Health Emergency Management (PHEM) competency-based training programs across African Member States, PRISMA 2020-aligned, examining training gaps, workforce capacity, and implementation fidelity.\n\n\nChildhood Anemia in Sub-Saharan Africa\nPrevalence and predictors of anemia among children under five across Ghana, Nigeria, and Tanzania, using pooled DHS data (n ≈ 47,919). Methods: Generalized Estimating Equations (GEE) for within-country clustering, two-stage multiple imputation for missing hemoglobin values, and country-stratified and pooled models with interaction terms.\nAPHA 2026 — accepted for oral presentation\n\n\nDomestic HIV Surveillance — Arizona Department of Health Services\nAlongside the Africa-focused work, I build Power BI dashboards and a surveillance-to-national-data-dictionary crosswalk for Arizona’s CDC-funded HIV Testing Program, covering testing volume, demographics, care linkage, and PrEP cascade metrics."
+  },
+  {
+    "objectID": "research.html#network-analysis-and-epidemic-modeling",
+    "href": "research.html#network-analysis-and-epidemic-modeling",
+    "title": "Research",
+    "section": "4. Network Analysis and Epidemic Modeling",
+    "text": "4. Network Analysis and Epidemic Modeling\n\nVariational EM for ERGM Mixture Models\nApplying variational EM algorithms for Exponential Random Graph Model (ERGM) mixture models across three datasets — the Add Health Study, the Copenhagen Networks Study, and the Colorado Springs HIV transmission network — to examine latent community structure and disease spread in social networks.\n\n\nBayesian Nonparametric Epidemic Modeling\nA developing interest in Gaussian process priors for stochastic epidemic modeling, particularly for settings with sparse or irregularly observed outbreak data common in low-resource health systems."
+  },
+  {
+    "objectID": "research.html#software-reproducibility",
+    "href": "research.html#software-reproducibility",
+    "title": "Research",
+    "section": "Software & Reproducibility",
+    "text": "Software & Reproducibility\nCode and reproducible workflows are on GitHub. I contribute to TSGap, an open-source Python library for composable time-series missingness simulation, separating missingness mechanisms (MCAR/MAR/MNAR) from patterns for imputation-method benchmarking.\nKey tools: mice, survival, randomForest, xgboost, survey, geepack, brms, ggplot2, R Markdown, Quarto, LaTeX."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Enock Adu Bonsu",
+    "section": "",
+    "text": "I’m a PhD student in Biostatistics at the University of Arizona, working at the intersection of algorithmic fairness, missing data methods, and public health data science. Before Arizona, I earned an MS in Statistics from Western Michigan University and a BSc in Mathematics from the University of Mines and Technology (Ghana), and spent several years as a survey biostatistician with the Ghana Statistical Service on national census and health-survey operations.\nMy dissertation develops game-theoretic frameworks for detecting hidden subgroup bias in clinical prediction models. Alongside that, I collaborate with Africa CDC on public health emergency management capacity building, and with Arizona’s Department of Health Services on HIV surveillance data infrastructure.\n\n\n55 African Member States\n\n\n46K+ ICU patients analyzed\n\n\n48K children in DHS anemia study"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Enock Adu Bonsu",
+    "section": "",
+    "text": "I’m a PhD student in Biostatistics at the University of Arizona, working at the intersection of algorithmic fairness, missing data methods, and public health data science. Before Arizona, I earned an MS in Statistics from Western Michigan University and a BSc in Mathematics from the University of Mines and Technology (Ghana), and spent several years as a survey biostatistician with the Ghana Statistical Service on national census and health-survey operations.\nMy dissertation develops game-theoretic frameworks for detecting hidden subgroup bias in clinical prediction models. Alongside that, I collaborate with Africa CDC on public health emergency management capacity building, and with Arizona’s Department of Health Services on HIV surveillance data infrastructure.\n\n\n55 African Member States\n\n\n46K+ ICU patients analyzed\n\n\n48K children in DHS anemia study"
+  },
+  {
+    "objectID": "index.html#current-roles",
+    "href": "index.html#current-roles",
+    "title": "Enock Adu Bonsu",
+    "section": "Current Roles",
+    "text": "Current Roles\n\nResearch Analyst · current\nAfrica Centres for Disease Control and Prevention\nLeading a systematic landscape analysis of Public Health Emergency Management competency-based training programs across African Member States, PRISMA 2020-aligned.\n\n\nBio BI Analyst (Intern) · current\nArizona Department of Health Services, HIV Prevention Program\nBuilding Power BI dashboards and a data-dictionary crosswalk supporting Arizona’s CDC-funded HIV Testing Program surveillance and reporting.\n\n\nEducation Lead (Intern) · current\nEnvision by WorldStrides\nLeading a multidisciplinary team delivering STEM curricula across robotics, medicine, and forensic science tracks."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Enock Adu Bonsu",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nAlgorithmic fairness in clinical AI and prediction models\nMissing data — multiple imputation, MNAR sensitivity analysis, tipping-point frameworks\nSurvival analysis and nonparametric methods\nBayesian nonparametrics & network models — Gaussian process priors, ERGM mixture models, epidemic modeling\nGlobal child & maternal health — anemia and nutrition in Sub-Saharan Africa\nPublic health emergency management capacity building in Africa"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Enock Adu Bonsu",
+    "section": "Education",
+    "text": "Education\nPhD, Biostatistics · University of Arizona (2024 – expected 2028)\nDissertation: game-theoretic frameworks for algorithmic bias detection in clinical prediction models\nMS, Statistics · Western Michigan University (2024)\nBSc, Mathematics · University of Mines and Technology, Ghana (2018)"
+  },
+  {
+    "objectID": "index.html#selected-affiliations",
+    "href": "index.html#selected-affiliations",
+    "title": "Enock Adu Bonsu",
+    "section": "Selected Affiliations",
+    "text": "Selected Affiliations\n\n\n\n\n\n\n\nOrganization\nRole\n\n\n\n\nAfrica CDC\nResearch Analyst, PHEM Capacity Building\n\n\nArizona Department of Health Services\nBio BI Analyst (Intern), HIV Prevention Program\n\n\nGhana Statistical Service\nData Monitor/Field Supervisor\n\n\nWorld Bank / UNICEF / WHO / WFP\nStatistical Researcher\n\n\nJournal of Statistics and Data Science Education\nPeer Reviewer"
+  },
+  {
+    "objectID": "index.html#news-updates",
+    "href": "index.html#news-updates",
+    "title": "Enock Adu Bonsu",
+    "section": "News & Updates",
+    "text": "News & Updates\n\n2026 — Abstract accepted for oral presentation, APHA Annual Meeting 2026 (San Antonio), on childhood anemia across Ghana, Nigeria, and Tanzania.\n2026 — Presented at the Alzheimer’s Association International Conference (AAIC) on timing of first Alzheimer’s neuroimaging.\n2026 — Awarded the Zuckerman Family Foundation Scholarship, Mel and Enid Zuckerman College of Public Health, University of Arizona.\n2026 — Began Bio BI Analyst internship with the Arizona Department of Health Services HIV Prevention Program.\n2025 — Began PhD in Biostatistics at the University of Arizona.\n2024 — Received Outstanding Excellence in Cultural Diversity Certificate, Western Michigan University."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download full CV (PDF)\nThe summary below covers the highlights — the PDF has full detail on positions, publications, and service."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nPhD, Biostatistics · University of Arizona, Tucson, AZ (2024 – expected 2028)\nMS, Statistics · Western Michigan University, Kalamazoo, MI (2024)\nBSc, Mathematics · University of Mines and Technology, Tarkwa, Ghana (2018)"
+  },
+  {
+    "objectID": "cv.html#current-positions",
+    "href": "cv.html#current-positions",
+    "title": "Curriculum Vitae",
+    "section": "Current Positions",
+    "text": "Current Positions\nResearch Analyst · Africa CDC (2024–present)\nSystematic landscape analysis of PHEM competency-based training programs across African Member States. PRISMA 2020-aligned.\nBio BI Analyst (Intern) · Arizona Department of Health Services, HIV Prevention Program (2026–present)\nPower BI dashboards and data-dictionary crosswalk for Arizona’s CDC-funded HIV Testing Program.\nEducation Lead (Intern) · Envision by WorldStrides (2025–present)\nLeads a multidisciplinary team delivering STEM curricula across robotics, medicine, and forensic science tracks."
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "Curriculum Vitae",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nAlgorithmic fairness and bias detection in clinical AI\nSurvival analysis and nonparametric methods\nMissing data: MICE, MNAR sensitivity, tipping-point frameworks\nBayesian nonparametric methods and Gaussian process priors\nChildhood anemia and maternal health in Sub-Saharan Africa\nPublic health emergency management capacity in Africa"
+  },
+  {
+    "objectID": "cv.html#prior-experience",
+    "href": "cv.html#prior-experience",
+    "title": "Curriculum Vitae",
+    "section": "Prior Experience",
+    "text": "Prior Experience\nStatistical Programmer · Department of Mathematics, Western Michigan University (2024)\nStatistical Researcher · WorldStrides Educational Travel (2022–2024)\nData Analyst / Survey Monitor · Ghana Statistical Service (2018–2022)\nNational census and health-survey operations; statistical consulting with the World Bank, UNICEF, WHO, and WFP."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\nStatistical software: R (tidyverse, survival, mice, randomForest, xgboost, geepack, brms, survey), LaTeX, Quarto, R Markdown\nMethods: Survival analysis, GEE, multiple imputation, MNAR sensitivity, ML (Random Forest, XGBoost, SVM, LASSO), network analysis (ERGM), Bayesian nonparametrics, algorithmic fairness"
+  },
+  {
+    "objectID": "cv.html#awards",
+    "href": "cv.html#awards",
+    "title": "Curriculum Vitae",
+    "section": "Awards",
+    "text": "Awards\n\nZuckerman Family Foundation Scholarship — University of Arizona (2026)\nOutstanding Excellence in Cultural Diversity Certificate — Western Michigan University (2024)"
+  },
+  {
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
+    "title": "Curriculum Vitae",
+    "section": "Contact",
+    "text": "Contact\nEmail: enocka@arizona.edu\nGitHub: github.com/adubonsuenock\nGoogle Scholar: scholar.google.com\nLinkedIn: linkedin.com/in/enock-adu-bonsu"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications & Presentations",
+    "section": "",
+    "text": "Leveraging Machine Learning for Early Detection and Management of Diabetes and Parkinson’s Disease: Innovations in Predictive Analytics and Personalized Healthcare\nAdu Bonsu, E. (2024)\nGeneral Principles & Innovations · DOI: 10.55248/gengpi.5.1124.3133"
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-publications",
+    "href": "publications.html#peer-reviewed-publications",
+    "title": "Publications & Presentations",
+    "section": "",
+    "text": "Leveraging Machine Learning for Early Detection and Management of Diabetes and Parkinson’s Disease: Innovations in Predictive Analytics and Personalized Healthcare\nAdu Bonsu, E. (2024)\nGeneral Principles & Innovations · DOI: 10.55248/gengpi.5.1124.3133"
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications & Presentations",
+    "section": "Preprints",
+    "text": "Preprints\n\n\n\n\n\n\nMachine Learning and the Random Walk Puzzle: Forecasting the CAD/USD Exchange Rate with Expanding Window Evaluation and SHAP Interpretability\nAgyekum, L., Agyemang, E.F., Ampomah, O., Acheampong, K., Boadi, E., Amakye, P.Y., Tchorly, F.S., Adu Bonsu, E., & Nyarko, E. (2026)\narXiv preprint arXiv:2606.15058\nBenchmarks five ML models against random-walk and exponential-smoothing baselines for monthly CAD/USD forecasting, using expanding-window evaluation, Diebold–Mariano testing, and SHAP interpretability."
+  },
+  {
+    "objectID": "publications.html#manuscripts-under-review",
+    "href": "publications.html#manuscripts-under-review",
+    "title": "Publications & Presentations",
+    "section": "Manuscripts Under Review",
+    "text": "Manuscripts Under Review\n\n\n\n\n\n\nThe Resurgence of Measles Epidemics: Immunity Gaps and Vaccine Response among Under-5s in Lagos, Nigeria\nCo-author · Submitted to BMC Public Health (April 2026)\n\n\n\n\n\n\n\n\n\nDiscovering Latent Consumer Preference Communities from Review Text using Transformer-Enhanced Topic–Network Models\nCo-author · Submitted to Statistics and Computing (February 2026)\n\n\n\n\n\n\n\n\n\nBankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis\nCo-author · Submitted to International Journal of Data Science and Analytics (April 2026)"
+  },
+  {
+    "objectID": "publications.html#manuscripts-in-preparation",
+    "href": "publications.html#manuscripts-in-preparation",
+    "title": "Publications & Presentations",
+    "section": "Manuscripts in Preparation",
+    "text": "Manuscripts in Preparation\n\n\n\n\n\n\nA Game-Theoretic Framework for Detecting Algorithmic Bias in Clinical Prediction Models: The Vulnerability Index Approach\nAdu Bonsu, E.\nTarget: Statistics in Medicine\nIntroduces the V(S) vulnerability-indexed framework for detecting subgroup-level algorithmic bias in clinical AI. Validated on MIMIC-III (n = 46,476) and UNM Trauma Registry (n = 3,132) data.\nDraft available upon request\n\n\n\n\n\n\n\n\n\nMultilevel Determinants of Childhood Anemia in Sub-Saharan Africa: A Comprehensive Analysis of Demographic and Health Surveys\nAdu Bonsu, E. et al.\nTarget: PLOS Medicine\n\n\n\n\n\n\n\n\n\nVariational EM Algorithm for ERGM Mixture Models: Application to Disease Transmission Networks\nAttandoh, H. P., Adu Bonsu, E. et al.\nTarget: Journal of the Royal Statistical Society, Series C\n\n\n\n\n\n\n\n\n\nMissing Data Sensitivity Analysis in Clinical Trials: An MNAR Tipping-Point Approach\nAdu Bonsu, E. et al.\nTarget: BMC Medical Research Methodology\nReanalysis of a clinical dataset applying MICE under MAR and tipping-point sensitivity analysis for MNAR departures.\n\n\n\n\n\n\n\n\n\nPublic Health Emergency Management Capacity Building in Africa: A Systematic Landscape Analysis\nValdez, Adu Bonsu, E., [co-authors], Africa CDC PHEM Team\nAfrica CDC collaboration · PRISMA 2020-aligned"
+  },
+  {
+    "objectID": "publications.html#software",
+    "href": "publications.html#software",
+    "title": "Publications & Presentations",
+    "section": "Software",
+    "text": "Software\n\n\n\n\n\n\nTSGap: A Python Library for Composable Time-Series Missingness Simulation\nOripov, F., Korchagina, K., Adu Bonsu, E., Bilgin, A., & Aras, S. (2026) · Under review\nOpen-source package separating missingness mechanisms (MCAR/MAR/MNAR) from patterns (pointwise, block, monotone, decay, Markov) for imputation-method benchmarking. github.com/feruzoripov/tsgap"
+  },
+  {
+    "objectID": "publications.html#conference-presentations-abstracts",
+    "href": "publications.html#conference-presentations-abstracts",
+    "title": "Publications & Presentations",
+    "section": "Conference Presentations & Abstracts",
+    "text": "Conference Presentations & Abstracts\nTiming of First Alzheimer’s Neuroimaging: A Multicenter Analysis of Genetic, Cognitive, and Social Factors\nKorley, J. & Adu Bonsu, E. (2026) · University of Arizona & University of South Carolina\nPresented, Alzheimer’s Association International Conference (AAIC) 2026\nFeasibility and Symptomatic Outcomes of Remote Yoga in Patients with Multiple Myeloma Receiving Active Therapy: A Randomized Pilot Trial\nPandya, S., et al., including Adu Bonsu, E. · Society for Integrative Oncology (SIO)\nAccepted for oral presentation, presented by co-author · ClinicalTrials.gov ID: NCT06061302\nA Game-Theoretic Framework for Detecting Algorithmic Bias in Clinical Prediction Models\nAdu Bonsu, E. (2026) · Mel and Enid Zuckerman College of Public Health (MEZCOPH) Poster Forum, University of Arizona"
+  },
+  {
+    "objectID": "publications.html#service-professional-affiliations",
+    "href": "publications.html#service-professional-affiliations",
+    "title": "Publications & Presentations",
+    "section": "Service & Professional Affiliations",
+    "text": "Service & Professional Affiliations\nPeer Reviewer · Journal of Statistics and Data Science Education (JSDSE), 2025–present\nMember · American Statistical Association (ASA) · International Biometric Society (IBS) · Society for Epidemiologic Research (SER) · International Society for Clinical Biostatistics (ISCB)"
+  },
+  {
+    "objectID": "publications.html#awards-recognition",
+    "href": "publications.html#awards-recognition",
+    "title": "Publications & Presentations",
+    "section": "Awards & Recognition",
+    "text": "Awards & Recognition\n\nZuckerman Family Foundation Scholarship — Mel and Enid Zuckerman College of Public Health, University of Arizona (2026)\nOutstanding Excellence in Cultural Diversity Certificate — Office of Diversity and Inclusion, Western Michigan University (2024)\nMIMIC-III Clinical Database Research Certification — MIT (2024)\nFeatured in the University of Arizona Global Health Institute’s 2025 Year in Review for contributions to the Africa CDC PHEM Expert Working Group\n\n\nLast updated: June 2026"
+  }
+]

@@ -1,0 +1,114 @@
+---
+title: "Enock Adu Bonsu"
+subtitle: "PhD Candidate in Biostatistics · University of Arizona"
+image: assets/profile.png
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:enocka@arizona.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/Enockadubonsu
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=bfxCKm0AAAAJ&hl=en
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/enock-adu-bonsu-0b2115161
+---
+
+## About
+
+I'm a PhD student in Biostatistics at the **University of Arizona**, working at the intersection of **algorithmic fairness, missing data methods, and public health data science**. Before Arizona, I earned an MS in Statistics from Western Michigan University and a BSc in Mathematics from the University of Mines and Technology (Ghana), and spent several years as a survey biostatistician with the Ghana Statistical Service on national census and health-survey operations.
+
+My dissertation develops game-theoretic frameworks for detecting hidden subgroup bias in clinical prediction models. Alongside that, I collaborate with **Africa CDC** on public health emergency management capacity building, and with **Arizona's Department of Health Services** on HIV surveillance data infrastructure.
+
+:::: {.stat-strip}
+::: {.stat}
+[55]{.stat-number}
+[African Member States]{.stat-label}
+:::
+
+::: {.stat}
+[46K+]{.stat-number}
+[ICU patients analyzed]{.stat-label}
+:::
+
+::: {.stat}
+[48K]{.stat-number}
+[children in DHS anemia study]{.stat-label}
+:::
+::::
+
+---
+
+## Current Roles
+
+::: {.role-card}
+[Research Analyst]{.role-title} · [current]{.badge .badge-live}\
+[Africa Centres for Disease Control and Prevention]{.role-org}
+
+Leading a systematic landscape analysis of Public Health Emergency Management competency-based training programs across African Member States, PRISMA 2020-aligned.
+:::
+
+::: {.role-card}
+[Bio BI Analyst (Intern)]{.role-title} · [current]{.badge .badge-live}\
+[Arizona Department of Health Services, HIV Prevention Program]{.role-org}
+
+Building Power BI dashboards and a data-dictionary crosswalk supporting Arizona's CDC-funded HIV Testing Program surveillance and reporting.
+:::
+
+::: {.role-card}
+[Education Lead (Intern)]{.role-title} · [current]{.badge .badge-live}\
+[Envision by WorldStrides]{.role-org}
+
+Leading a multidisciplinary team delivering STEM curricula across robotics, medicine, and forensic science tracks.
+:::
+
+---
+
+## Research Interests
+
+- **Algorithmic fairness** in clinical AI and prediction models
+- **Missing data** — multiple imputation, MNAR sensitivity analysis, tipping-point frameworks
+- **Survival analysis** and nonparametric methods
+- **Bayesian nonparametrics & network models** — Gaussian process priors, ERGM mixture models, epidemic modeling
+- **Global child & maternal health** — anemia and nutrition in Sub-Saharan Africa
+- **Public health emergency management** capacity building in Africa
+
+---
+
+## Education
+
+**PhD, Biostatistics** · University of Arizona *(2024 – expected 2028)*\
+Dissertation: game-theoretic frameworks for algorithmic bias detection in clinical prediction models
+
+**MS, Statistics** · Western Michigan University *(2024)*
+
+**BSc, Mathematics** · University of Mines and Technology, Ghana *(2018)*
+
+---
+
+## Selected Affiliations
+
+| Organization | Role |
+|---|---|
+| Africa CDC | Research Analyst, PHEM Capacity Building |
+| Arizona Department of Health Services | Bio BI Analyst (Intern), HIV Prevention Program |
+| Ghana Statistical Service | Data Monitor/Field Supervisor |
+| World Bank / UNICEF / WHO / WFP | Statistical Researcher |
+| Journal of Statistics and Data Science Education | Peer Reviewer |
+
+---
+
+## News & Updates
+
+- **2026** — Abstract accepted for oral presentation, APHA Annual Meeting 2026 (San Antonio), on childhood anemia across Ghana, Nigeria, and Tanzania.
+- **2026** — Presented at the Alzheimer's Association International Conference (AAIC) on timing of first Alzheimer's neuroimaging.
+- **2026** — Awarded the Zuckerman Family Foundation Scholarship, Mel and Enid Zuckerman College of Public Health, University of Arizona.
+- **2026** — Began Bio BI Analyst internship with the Arizona Department of Health Services HIV Prevention Program.
+- **2025** — Began PhD in Biostatistics at the University of Arizona.
+- **2024** — Received Outstanding Excellence in Cultural Diversity Certificate, Western Michigan University.

@@ -1,0 +1,76 @@
+---
+title: "Curriculum Vitae"
+---
+
+[Download full CV (PDF)](assets/cv_adu_bonsu.pdf){.btn .btn-primary target="_blank"}
+
+The summary below covers the highlights — the PDF has full detail on positions, publications, and service.
+
+------------------------------------------------------------------------
+
+## Education
+
+**PhD, Biostatistics** · University of Arizona, Tucson, AZ *(2024 – expected 2028)*
+
+**MS, Statistics** · Western Michigan University, Kalamazoo, MI *(2024)*
+
+**BSc, Mathematics** · University of Mines and Technology, Tarkwa, Ghana *(2018)*
+
+------------------------------------------------------------------------
+
+## Current Positions
+
+**Research Analyst** · Africa CDC *(2024–present)*\
+Systematic landscape analysis of PHEM competency-based training programs across African Member States. PRISMA 2020-aligned.
+
+**Bio BI Analyst (Intern)** · Arizona Department of Health Services, HIV Prevention Program *(2026–present)*\
+Power BI dashboards and data-dictionary crosswalk for Arizona's CDC-funded HIV Testing Program.
+
+**Education Lead (Intern)** · Envision by WorldStrides *(2025–present)*\
+Leads a multidisciplinary team delivering STEM curricula across robotics, medicine, and forensic science tracks.
+
+------------------------------------------------------------------------
+
+## Research Interests
+
+- Algorithmic fairness and bias detection in clinical AI
+- Survival analysis and nonparametric methods
+- Missing data: MICE, MNAR sensitivity, tipping-point frameworks
+- Bayesian nonparametric methods and Gaussian process priors
+- Childhood anemia and maternal health in Sub-Saharan Africa
+- Public health emergency management capacity in Africa
+
+------------------------------------------------------------------------
+
+## Prior Experience
+
+**Statistical Programmer** · Department of Mathematics, Western Michigan University *(2024)*
+
+**Statistical Researcher** · WorldStrides Educational Travel *(2022–2024)*
+
+**Data Analyst / Survey Monitor** · Ghana Statistical Service *(2018–2022)*\
+National census and health-survey operations; statistical consulting with the World Bank, UNICEF, WHO, and WFP.
+
+------------------------------------------------------------------------
+
+## Skills
+
+**Statistical software:** R (tidyverse, survival, mice, randomForest, xgboost, geepack, brms, survey), LaTeX, Quarto, R Markdown
+
+**Methods:** Survival analysis, GEE, multiple imputation, MNAR sensitivity, ML (Random Forest, XGBoost, SVM, LASSO), network analysis (ERGM), Bayesian nonparametrics, algorithmic fairness
+
+------------------------------------------------------------------------
+
+## Awards
+
+- Zuckerman Family Foundation Scholarship — University of Arizona (2026)
+- Outstanding Excellence in Cultural Diversity Certificate — Western Michigan University (2024)
+
+------------------------------------------------------------------------
+
+## Contact
+
+Email: [enocka@arizona.edu](mailto:enocka@arizona.edu)\
+GitHub: [github.com/adubonsuenock](https://github.com/Enockadubonsu)\
+Google Scholar: [scholar.google.com](https://scholar.google.com/citations?user=bfxCKm0AAAAJ&hl=en)\
+LinkedIn: [linkedin.com/in/enock-adu-bonsu](https://www.linkedin.com/in/enock-adu-bonsu-0b2115161)

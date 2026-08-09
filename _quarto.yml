@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Enock Adu Bonsu"
+  description: "PhD Candidate in Biostatistics · University of Arizona"
+  favicon: assets/favicon.png
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/Enockadubonsu
+      - icon: linkedin
+        href: https://www.linkedin.com/in/enock-adu-bonsu-0b2115161
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=bfxCKm0AAAAJ&hl=en
+      - icon: envelope
+        href: mailto:enocka@arizona.edu
+
+  page-footer:
+    left: "© 2026 Enock Adu Bonsu"
+    right:
+      - icon: github
+        href: https://github.com/Enockadubonsu
+      - icon: linkedin
+        href: https://www.linkedin.com/in/enock-adu-bonsu-0b2115161
+      - icon: envelope
+        href: mailto:enocka@arizona.edu
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+    highlight-style: github

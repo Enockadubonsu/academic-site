@@ -1,0 +1,539 @@
+/* ============================================================
+   Enock Adu Bonsu — Academic Website
+   Design system: "network" — statistical rigor meets public-health
+   reach. Node/edge motif nods to the ERGM & epidemic-network work;
+   mono data labels nod to the applied-statistics side of the work.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --ink:        #0B1220;
+  --ink-soft:   #4B5568;
+  --paper:      #F7F8FB;
+  --paper-alt:  #ECEFF5;
+  --line:       #DDE2EA;
+  --line-dark:  rgba(247, 248, 251, 0.14);
+  --indigo:     #3350FF;
+  --indigo-dk:  #1E33B8;
+  --coral:      #FF6152;
+  --teal:       #0EA894;
+  /* Navbar / footer band — kept separate from --ink (body text color)
+     so it can be retuned independently. Change this one value to
+     shift the whole top/bottom band to a different navy, slate, etc. */
+  --navy:       #142748;
+  --navy-soft:  rgba(247, 248, 251, 0.72);
+  --font-display: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  --font-body:    'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-mono:    'IBM Plex Mono', 'SFMono-Regular', Menlo, monospace;
+}
+
+/* ---------- Base ---------- */
+body {
+  font-family: var(--font-body);
+  font-size: 17.5px;
+  line-height: 1.72;
+  color: var(--ink);
+  background-color: var(--paper);
+  position: relative;
+}
+
+/* Faint fixed network-node watermark — pushed to the page margins only.
+   The radial mask fades it out over the content column so it no longer
+   crosses directly over text, the photo, or headings; it now reads as
+   a quiet edge texture instead of literal lines through the page. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.28;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='900' viewBox='0 0 900 900'%3E%3Cg fill='none' stroke='%233350FF' stroke-width='1'%3E%3Cline x1='60' y1='120' x2='240' y2='210' /%3E%3Cline x1='240' y1='210' x2='190' y2='400' /%3E%3Cline x1='240' y1='210' x2='460' y2='160' /%3E%3Cline x1='460' y1='160' x2='650' y2='300' /%3E%3Cline x1='190' y1='400' x2='420' y2='480' /%3E%3Cline x1='420' y1='480' x2='650' y2='300' /%3E%3Cline x1='650' y1='300' x2='830' y2='250' /%3E%3Cline x1='420' y1='480' x2='560' y2='680' /%3E%3Cline x1='560' y1='680' x2='780' y2='720' /%3E%3Cline x1='120' y1='650' x2='330' y2='600' /%3E%3Cline x1='330' y1='600' x2='420' y2='480' /%3E%3C/g%3E%3Cg fill='%23FF6152'%3E%3Ccircle cx='60' cy='120' r='3.5'/%3E%3Ccircle cx='830' cy='250' r='3.5'/%3E%3Ccircle cx='780' cy='720' r='3.5'/%3E%3Ccircle cx='120' cy='650' r='3.5'/%3E%3C/g%3E%3Cg fill='%233350FF'%3E%3Ccircle cx='240' cy='210' r='4'/%3E%3Ccircle cx='460' cy='160' r='4'/%3E%3Ccircle cx='190' cy='400' r='4'/%3E%3Ccircle cx='650' cy='300' r='4'/%3E%3Ccircle cx='420' cy='480' r='4'/%3E%3Ccircle cx='560' cy='680' r='4'/%3E%3Ccircle cx='330' cy='600' r='4'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 1400px 1400px;
+  -webkit-mask-image: radial-gradient(ellipse 60% 55% at center, transparent 45%, black 100%);
+          mask-image: radial-gradient(ellipse 60% 55% at center, transparent 45%, black 100%);
+}
+
+main#quarto-document-content {
+  background-color: var(--paper);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+h1.title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  padding-top: 0.25rem;
+  border-top: 2px solid var(--ink);
+  padding-top: 0.9rem;
+}
+
+h3 {
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: var(--indigo-dk);
+}
+
+p, li {
+  color: var(--ink);
+}
+
+strong {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* Eyebrow / kicker text used above headings */
+.eyebrow {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--coral);
+  margin-bottom: 0.35rem;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background-color: var(--navy) !important;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.navbar-brand {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #F7F8FB !important;
+  letter-spacing: -0.01em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(247, 248, 251, 0.75) !important;
+  padding: 0.5rem 0.9rem !important;
+  position: relative;
+  transition: color 0.15s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ffffff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0.9rem;
+  right: 0.9rem;
+  bottom: 0.2rem;
+  height: 2px;
+  background: var(--coral);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: var(--line-dark);
+}
+
+/* ---------- About / hero (trestles) ---------- */
+
+/* Quarto's trestles template is flex-based under the hood (not grid) —
+   the previous version of this rule forced `display: grid` on the
+   container, which broke that flex sizing entirely and let the image
+   grow to its natural (larger) size instead of shrinking. This version
+   works with the existing flex layout instead of replacing it: just
+   cap how much horizontal space the image/name/links column can take,
+   and let the text column absorb the rest. */
+.quarto-about-trestles {
+  padding-top: 1.5rem;
+}
+
+.quarto-about-trestles .about-entity {
+  flex: 0 0 220px;
+  max-width: 220px;
+  border-right: none;
+  padding-right: 0;
+}
+
+.quarto-about-trestles .about-entity img.about-image,
+.quarto-about-trestles .about-image,
+.quarto-about-trestles .about-entity img {
+  width: 220px !important;
+  height: 220px !important;
+  max-width: 220px !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+}
+
+.quarto-about-trestles .about-contents {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-left: 1rem;
+}
+
+.quarto-about-trestles .about-image {
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px var(--paper), 0 0 0 8px var(--line), 0 20px 40px -20px rgba(11, 18, 32, 0.35);
+}
+
+.about-links .about-link {
+  border: 1.5px solid var(--ink);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink) !important;
+  transition: all 0.15s ease;
+}
+
+.about-links .about-link:hover {
+  background-color: var(--ink);
+  color: var(--paper) !important;
+}
+
+.about-links .about-link i {
+  color: var(--coral);
+}
+
+.about-links .about-link:hover i {
+  color: var(--coral);
+}
+
+/* subtitle under name on About */
+p.subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: var(--indigo-dk);
+  letter-spacing: 0.01em;
+}
+
+/* ---------- Stat strip (used on About page) ---------- */
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin: 2.2rem 0 2.6rem;
+  padding: 1.6rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.stat {
+  text-align: left;
+}
+
+.stat .stat-number {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2.1rem;
+  color: var(--indigo);
+  line-height: 1;
+}
+
+.stat .stat-label {
+  display: block;
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+/* ---------- Role / timeline cards ---------- */
+.role-card {
+  position: relative;
+  padding: 1.1rem 0 1.1rem 1.5rem;
+  border-left: 2px solid var(--line);
+  margin-bottom: 0.4rem;
+}
+
+.role-card::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 1.35rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--indigo);
+}
+
+.role-card .role-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.02rem;
+  margin-bottom: 0.15rem;
+}
+
+.role-card .role-org {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.role-card p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- Badges / status pills ---------- */
+.badge {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.badge-secondary {
+  background: var(--paper-alt);
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+}
+
+.badge-live {
+  background: rgba(14, 168, 148, 0.12);
+  color: #0a7d6e;
+  border: 1px solid rgba(14, 168, 148, 0.35);
+}
+
+.badge-accent {
+  background: rgba(255, 97, 82, 0.12);
+  color: #c8402f;
+  border: 1px solid rgba(255, 97, 82, 0.3);
+}
+
+/* ---------- Callouts (publications) ---------- */
+.callout {
+  border-radius: 4px;
+  margin-bottom: 1.6rem;
+  border: 1px solid var(--line);
+  background-color: #ffffff;
+}
+
+.callout.callout-note {
+  border-left: 3px solid var(--indigo);
+}
+
+.callout-title-container {
+  font-family: var(--font-display);
+}
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+  background-color: var(--indigo);
+  border-color: var(--indigo);
+  color: white;
+  padding: 8px 22px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+}
+.btn-primary:hover {
+  background-color: var(--indigo-dk);
+  border-color: var(--indigo-dk);
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* ---------- Tables ---------- */
+table {
+  font-size: 0.94rem;
+}
+thead {
+  background-color: var(--paper-alt);
+}
+thead th {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  font-weight: 500;
+  border-bottom: 2px solid var(--ink) !important;
+}
+
+/* ---------- Section divider (network-node style, replaces plain hr) ---------- */
+hr {
+  border: none;
+  height: 1px;
+  background: var(--line);
+  margin: 2.4rem 0;
+}
+
+.node-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2.6rem 0;
+}
+.node-divider::before,
+.node-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+.node-divider span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--coral);
+  display: inline-block;
+}
+
+/* ---------- Footer ---------- */
+.page-footer {
+  background-color: var(--navy);
+  color: var(--navy-soft);
+  margin-top: 4rem;
+}
+.nav-footer {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: rgba(247, 248, 251, 0.55);
+  border-top: none;
+  padding-top: 1.4rem;
+}
+.nav-footer a {
+  color: rgba(247, 248, 251, 0.75);
+}
+.nav-footer a:hover {
+  color: #ffffff;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: var(--indigo);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--indigo-dk);
+  text-decoration: underline;
+  text-decoration-color: var(--coral);
+}
+
+/* ---------- Code / TOC ---------- */
+#TOC {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+/* ---------- Dark mode overrides ----------
+   Quarto puts the `quarto-dark` class directly on <body> when the
+   theme toggle is switched — so the selector must be `body.quarto-dark`,
+   not `.quarto-dark body` (that was matching a body nested inside some
+   other element with the class, which never happens — the previous
+   version of this file had that bug and none of these rules ever fired). */
+body.quarto-dark {
+  --paper: #0B1220;
+  --paper-alt: #141d33;
+  --ink: #F1F3F8;
+  --ink-soft: #A8B0C0;
+  --line: #263151;
+  background-color: var(--paper);
+}
+body.quarto-dark::before {
+  opacity: 0.22;
+}
+body.quarto-dark .navbar,
+body.quarto-dark .page-footer {
+  background-color: #0B1220 !important;
+}
+body.quarto-dark h1,
+body.quarto-dark h2,
+body.quarto-dark h3,
+body.quarto-dark h4 {
+  color: #F1F3F8;
+}
+body.quarto-dark h2 {
+  border-top-color: #F1F3F8;
+}
+body.quarto-dark a {
+  color: #7B93FF;
+}
+body.quarto-dark a:hover {
+  color: #A9B9FF;
+}
+body.quarto-dark .about-links .about-link {
+  border-color: #F1F3F8;
+  color: #F1F3F8 !important;
+}
+body.quarto-dark .about-links .about-link:hover {
+  background-color: #F1F3F8;
+  color: var(--ink) !important;
+}
+body.quarto-dark .callout.callout-note {
+  background-color: #141d33;
+}
+body.quarto-dark thead {
+  background-color: #141d33;
+}
+body.quarto-dark .stat-strip,
+body.quarto-dark table {
+  border-color: var(--line);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 767px) {
+  h1.title { font-size: 2rem; }
+  .stat-strip { grid-template-columns: repeat(2, 1fr); }
+  body { font-size: 16.5px; }
+  .quarto-about-trestles {
+    flex-direction: column;
+  }
+  .quarto-about-trestles .about-entity {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+  .quarto-about-trestles .about-entity img.about-image,
+  .quarto-about-trestles .about-image {
+    max-width: 220px;
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary:hover { transform: none; }
+  * { transition: none !important; }
+}
+
+/* ---------- Focus visibility ---------- */
+a:focus-visible,
+.btn:focus-visible,
+.nav-link:focus-visible {
+  outline: 2px solid var(--coral);
+  outline-offset: 2px;
+}

@@ -1,0 +1,146 @@
+---
+title: "Publications & Presentations"
+---
+
+## Peer-Reviewed Publications
+
+::: {.callout-note appearance="minimal"}
+**Leveraging Machine Learning for Early Detection and Management of Diabetes and Parkinson's Disease: Innovations in Predictive Analytics and Personalized Healthcare**
+
+Adu Bonsu, E. (2024)
+
+*General Principles & Innovations* · DOI: [10.55248/gengpi.5.1124.3133](https://doi.org/10.55248/gengpi.5.1124.3133)
+:::
+
+## Preprints
+
+::: {.callout-note appearance="minimal"}
+**Machine Learning and the Random Walk Puzzle: Forecasting the CAD/USD Exchange Rate with Expanding Window Evaluation and SHAP Interpretability**
+
+Agyekum, L., Agyemang, E.F., Ampomah, O., Acheampong, K., Boadi, E., Amakye, P.Y., Tchorly, F.S., **Adu Bonsu, E.**, & Nyarko, E. (2026)
+
+*arXiv preprint* [arXiv:2606.15058](https://arxiv.org/abs/2606.15058)
+
+Benchmarks five ML models against random-walk and exponential-smoothing baselines for monthly CAD/USD forecasting, using expanding-window evaluation, Diebold–Mariano testing, and SHAP interpretability.
+:::
+
+------------------------------------------------------------------------
+
+## Manuscripts Under Review
+
+::: {.callout-note appearance="minimal"}
+**The Resurgence of Measles Epidemics: Immunity Gaps and Vaccine Response among Under-5s in Lagos, Nigeria**
+
+Co-author · Submitted to *BMC Public Health* (April 2026)
+:::
+
+::: {.callout-note appearance="minimal"}
+**Discovering Latent Consumer Preference Communities from Review Text using Transformer-Enhanced Topic–Network Models**
+
+Co-author · Submitted to *Statistics and Computing* (February 2026)
+:::
+
+::: {.callout-note appearance="minimal"}
+**Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis**
+
+Co-author · Submitted to *International Journal of Data Science and Analytics* (April 2026)
+:::
+
+------------------------------------------------------------------------
+
+## Manuscripts in Preparation
+
+::: {.callout-note appearance="minimal"}
+**A Game-Theoretic Framework for Detecting Algorithmic Bias in Clinical Prediction Models: The Vulnerability Index Approach**
+
+Adu Bonsu, E.
+
+*Target: Statistics in Medicine*
+
+Introduces the V(S) vulnerability-indexed framework for detecting subgroup-level algorithmic bias in clinical AI. Validated on MIMIC-III (n = 46,476) and UNM Trauma Registry (n = 3,132) data.
+
+[Draft available upon request]{.badge .badge-secondary}
+:::
+
+::: {.callout-note appearance="minimal"}
+**Multilevel Determinants of Childhood Anemia in Sub-Saharan Africa: A Comprehensive Analysis of Demographic and Health Surveys**
+
+Adu Bonsu, E. et al.
+
+*Target: PLOS Medicine*
+:::
+
+::: {.callout-note appearance="minimal"}
+**Variational EM Algorithm for ERGM Mixture Models: Application to Disease Transmission Networks**
+
+Attandoh, H. P., Adu Bonsu, E. et al.
+
+*Target: Journal of the Royal Statistical Society, Series C*
+:::
+
+::: {.callout-note appearance="minimal"}
+**Missing Data Sensitivity Analysis in Clinical Trials: An MNAR Tipping-Point Approach**
+
+Adu Bonsu, E. et al.
+
+*Target: BMC Medical Research Methodology*
+
+Reanalysis of a clinical dataset applying MICE under MAR and tipping-point sensitivity analysis for MNAR departures.
+:::
+
+::: {.callout-note appearance="minimal"}
+**Public Health Emergency Management Capacity Building in Africa: A Systematic Landscape Analysis**
+
+Valdez, **Adu Bonsu, E.**, [co-authors], Africa CDC PHEM Team
+
+*Africa CDC collaboration* · PRISMA 2020-aligned
+:::
+
+------------------------------------------------------------------------
+
+## Software
+
+::: {.callout-note appearance="minimal"}
+**TSGap: A Python Library for Composable Time-Series Missingness Simulation**
+
+Oripov, F., Korchagina, K., **Adu Bonsu, E.**, Bilgin, A., & Aras, S. (2026) · *Under review*
+
+Open-source package separating missingness mechanisms (MCAR/MAR/MNAR) from patterns (pointwise, block, monotone, decay, Markov) for imputation-method benchmarking. [github.com/feruzoripov/tsgap](https://github.com/feruzoripov/tsgap)
+:::
+
+------------------------------------------------------------------------
+
+## Conference Presentations & Abstracts
+
+**Timing of First Alzheimer's Neuroimaging: A Multicenter Analysis of Genetic, Cognitive, and Social Factors**\
+Korley, J. & Adu Bonsu, E. (2026) · University of Arizona & University of South Carolina\
+Presented, Alzheimer's Association International Conference (AAIC) 2026
+
+
+**Feasibility and Symptomatic Outcomes of Remote Yoga in Patients with Multiple Myeloma Receiving Active Therapy: A Randomized Pilot Trial**\
+Pandya, S., et al., including Adu Bonsu, E. · Society for Integrative Oncology (SIO)\
+Accepted for oral presentation, presented by co-author · ClinicalTrials.gov ID: NCT06061302
+
+**A Game-Theoretic Framework for Detecting Algorithmic Bias in Clinical Prediction Models**\
+Adu Bonsu, E. (2026) · Mel and Enid Zuckerman College of Public Health (MEZCOPH) Poster Forum, University of Arizona
+
+------------------------------------------------------------------------
+
+## Service & Professional Affiliations
+
+**Peer Reviewer** · Journal of Statistics and Data Science Education (JSDSE), 2025–present
+
+**Member** · American Statistical Association (ASA) · International Biometric Society (IBS) · Society for Epidemiologic Research (SER) · International Society for Clinical Biostatistics (ISCB)
+
+------------------------------------------------------------------------
+
+## Awards & Recognition
+
+- **Zuckerman Family Foundation Scholarship** — Mel and Enid Zuckerman College of Public Health, University of Arizona (2026)
+- **Outstanding Excellence in Cultural Diversity Certificate** — Office of Diversity and Inclusion, Western Michigan University (2024)
+- **MIMIC-III Clinical Database Research Certification** — MIT (2024)
+- Featured in the [University of Arizona Global Health Institute's 2025 Year in Review](https://ghi.arizona.edu/sites/default/files/2026-01/2025%20GHI%20Year%20in%20Review.pdf) for contributions to the Africa CDC PHEM Expert Working Group
+
+------------------------------------------------------------------------
+
+*Last updated: June 2026*

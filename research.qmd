@@ -1,0 +1,75 @@
+---
+title: "Research"
+---
+
+::: {.eyebrow}
+Research Program
+:::
+
+My work spans three interconnected areas: **statistical methodology for fairness and equity in clinical AI**, **missing data and survival analysis methods**, and **public health data science in Sub-Saharan Africa**, alongside a developing interest in **network and epidemic modeling**. All projects use reproducible workflows in R and Quarto.
+
+::: {.node-divider}
+<span></span>
+:::
+
+## 1. Algorithmic Fairness in Clinical AI
+
+### The V(S) Vulnerability-Based Bias Detection Framework
+
+Clinical prediction models frequently perform well on aggregate metrics while failing specific subpopulations — elderly patients, racial minorities, and groups with limited data representation. I've developed the **V(S) framework**, a vulnerability-indexed approach that integrates multi-attribute utility theory and game-theoretic threshold optimization to detect and quantify this kind of subgroup bias.
+
+Validated on two independent datasets — the *UNM Trauma Registry* (n = 3,132) and *MIMIC-III ICU Mortality Data* (n = 46,476) — the framework surfaced a striking failure mode: Random Forest showed sharp performance degradation in elderly patients (AUC 0.636 vs. 0.909 for logistic regression; *p* = 0.031) that standard explainability tools like SHAP missed.
+
+[Target: *Statistics in Medicine*]{.badge .badge-secondary}
+
+---
+
+## 2. Missing Data Methods
+
+### MNAR Sensitivity Analysis and Tipping-Point Frameworks
+
+Missing data are pervasive in clinical and public health research. This work focuses on:
+
+- **Multiple imputation** under MAR and MNAR assumptions
+- **Tipping-point analysis** for how sensitive conclusions are to departures from MAR
+- **Two-stage multiple imputation** for complex survey data, including DHS missing-hemoglobin outcomes
+
+Applied to clinical trial data (target: *BMC Medical Research Methodology*) and to childhood anemia analyses using Demographic and Health Survey (DHS) data.
+
+---
+
+## 3. Public Health Data Science in Sub-Saharan Africa & Beyond
+
+### PHEM Capacity Building — Africa CDC
+
+A **systematic landscape analysis** of Public Health Emergency Management (PHEM) competency-based training programs across African Member States, PRISMA 2020-aligned, examining training gaps, workforce capacity, and implementation fidelity.
+
+### Childhood Anemia in Sub-Saharan Africa
+
+Prevalence and predictors of anemia among children under five across Ghana, Nigeria, and Tanzania, using pooled DHS data (n ≈ 47,919). Methods: Generalized Estimating Equations (GEE) for within-country clustering, two-stage multiple imputation for missing hemoglobin values, and country-stratified and pooled models with interaction terms.
+
+[APHA 2026 — accepted for oral presentation]{.badge .badge-live}
+
+### Domestic HIV Surveillance — Arizona Department of Health Services
+
+Alongside the Africa-focused work, I build Power BI dashboards and a surveillance-to-national-data-dictionary crosswalk for Arizona's CDC-funded HIV Testing Program, covering testing volume, demographics, care linkage, and PrEP cascade metrics.
+
+---
+
+## 4. Network Analysis and Epidemic Modeling
+
+### Variational EM for ERGM Mixture Models
+
+Applying variational EM algorithms for Exponential Random Graph Model (ERGM) mixture models across three datasets — the Add Health Study, the Copenhagen Networks Study, and the Colorado Springs HIV transmission network — to examine latent community structure and disease spread in social networks.
+
+### Bayesian Nonparametric Epidemic Modeling
+
+A developing interest in **Gaussian process priors** for stochastic epidemic modeling, particularly for settings with sparse or irregularly observed outbreak data common in low-resource health systems.
+
+---
+
+## Software & Reproducibility
+
+Code and reproducible workflows are on [GitHub](https://github.com/adubonsuenock). I contribute to **TSGap**, an open-source Python library for composable time-series missingness simulation, separating missingness mechanisms (MCAR/MAR/MNAR) from patterns for imputation-method benchmarking.
+
+Key tools: `mice`, `survival`, `randomForest`, `xgboost`, `survey`, `geepack`, `brms`, `ggplot2`, R Markdown, Quarto, LaTeX.
