@@ -91,6 +91,14 @@ p, li {
   color: var(--ink);
 }
 
+/* Justify body paragraphs (About/Research/Publications/CV prose) for a
+   cleaner, evenly-aligned block of text. Hyphens are added so justified
+   text doesn't create large, awkward gaps on narrower lines. */
+#quarto-document-content p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 strong {
   font-weight: 500;
   color: var(--ink);
