@@ -70,6 +70,6 @@ A developing interest in **Gaussian process priors** for stochastic epidemic mod
 
 ## Software & Reproducibility
 
-Code and reproducible workflows are on [GitHub](https://github.com/adubonsuenock). I contribute to **TSGap**, an open-source Python library for composable time-series missingness simulation, separating missingness mechanisms (MCAR/MAR/MNAR) from patterns for imputation-method benchmarking.
+Code and reproducible workflows are on [GitHub](https://github.com/Enockadubonsu). I contribute to **TSGap**, an open-source Python library for composable time-series missingness simulation, separating missingness mechanisms (MCAR/MAR/MNAR) from patterns for imputation-method benchmarking.
 
 Key tools: `mice`, `survival`, `randomForest`, `xgboost`, `survey`, `geepack`, `brms`, `ggplot2`, R Markdown, Quarto, LaTeX.
