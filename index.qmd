@@ -1,6 +1,6 @@
 ---
 title: "Enock Adu Bonsu"
-subtitle: "PhD Candidate in Biostatistics · University of Arizona"
+subtitle: "PhD Student in Biostatistics · University of Arizona"
 image: assets/profile.png
 about:
   template: trestles
