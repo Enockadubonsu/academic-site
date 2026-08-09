@@ -22,9 +22,9 @@ about:
 
 ## About
 
-I'm a PhD student in Biostatistics at the **University of Arizona**, working at the intersection of **algorithmic fairness, missing data methods, and public health data science**. Before Arizona, I earned an MS in Statistics from Western Michigan University and a BSc in Mathematics from the University of Mines and Technology (Ghana), and spent several years as a survey biostatistician with the Ghana Statistical Service on national census and health-survey operations.
+I am a PhD student in Biostatistics at the **University of Arizona**, working at the intersection of algorithmic fairness, missing data methods, and public health data science. Before Arizona, I earned an MS in Statistics from **Western Michigan University** and a BSc in Mathematics from the University of Mines and Technology (Ghana), and spent several years as a survey statistician with the **Ghana Statistical Service**, working on national census and health-survey projects.
 
-My dissertation develops game-theoretic frameworks for detecting hidden subgroup bias in clinical prediction models. Alongside that, I collaborate with **Africa CDC** on public health emergency management capacity building, and with **Arizona's Department of Health Services** on HIV surveillance data infrastructure.
+My current research develops game-theoretic frameworks for detecting hidden subgroup bias in clinical prediction models. Alongside that, I work with Africa CDC on public health emergency management capacity building, and with the **Arizona Department of Health Services** on HIV surveillance data infrastructure.
 
 :::: {.stat-strip}
 ::: {.stat}
