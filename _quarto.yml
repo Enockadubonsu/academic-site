@@ -8,7 +8,6 @@ website:
   site-url: "https://enockadubonsu.com"
   favicon: assets/favicon.png
   search: true
-  sitemap: true
 
   navbar:
     left:
