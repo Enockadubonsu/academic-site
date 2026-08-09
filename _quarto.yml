@@ -5,7 +5,10 @@ project:
 website:
   title: "Enock Adu Bonsu"
   description: "PhD Candidate in Biostatistics · University of Arizona"
+  site-url: "https://enockadubonsu.com"
   favicon: assets/favicon.png
+  search: true
+  sitemap: true
 
   navbar:
     left:
